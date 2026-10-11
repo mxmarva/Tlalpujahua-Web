@@ -93,7 +93,7 @@ LIST_META = {
         "desc": "Feria de la Esfera y festividades en Tlalpujahua.",
         "body_class": "page-eventos",
         "h1": "Eventos",
-        "intro": "La XXVII Feria de la Esfera será en 2026; el calendario exacto está por confirmar. En la ficha tienes teléfono, web oficial y un resumen de qué esperar.",
+        "intro": "La XXVII Feria de la Esfera se realiza del 7 de octubre al 15 de diciembre de 2026. En la ficha tienes teléfono, web oficial y un resumen de qué esperar.",
         "after_grid": """      <div class="two-col" style="margin-top:2rem">
         <div class="prose">
           <h2 style="margin-top:0">Virgen del Carmen</h2>
