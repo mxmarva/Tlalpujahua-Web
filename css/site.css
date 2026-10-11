@@ -421,23 +421,43 @@ main {
   filter: brightness(0.55);
 }
 
-.hero-slide-feria a,
-.hero-slide-feria picture {
+.hero-slide-feria {
+  background: radial-gradient(ellipse at 75% 50%, #1b3a78 0%, #0e2048 60%, #0a1734 100%);
+}
+
+.hero-slide-feria a {
   display: block;
   height: 100%;
 }
 
-.hero-slide-feria {
-  background: #0e2048;
+.hero-slides .hero-slide-feria img {
+  position: absolute;
+  top: 50%;
+  right: max(1rem, calc((100% - var(--max)) / 2));
+  width: min(48%, calc(var(--max) * 0.52));
+  height: auto;
+  transform: translateY(-50%);
+  filter: none;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
 }
 
-.hero-slides .hero-slide-feria img {
-  object-position: right center;
+@media (min-width: 701px) {
+  .hero-home .hero-home-inner h1 {
+    max-width: 42%;
+  }
 }
 
 @media (max-width: 700px) {
   .hero-slides .hero-slide-feria img {
-    object-position: center top;
+    top: 1rem;
+    right: 1rem;
+    width: calc(100% - 2rem);
+    transform: none;
+  }
+
+  .hero-home .hero-home-inner {
+    padding-top: calc(2rem + (100vw - 2rem) * 0.534);
   }
 }
 
