@@ -1036,8 +1036,18 @@ main {
 .site-nav .nav-root > li.nav-shop > a.nav-shop-btn{background:#c8102e;color:#fff;font-weight:700;border-radius:999px;padding:.45rem .85rem;white-space:nowrap;box-shadow:0 0 0 2px #f2c14e inset,0 4px 12px rgba(200,16,46,.35)}
 .site-nav .nav-root > li.nav-shop > a.nav-shop-btn:hover{background:#a00d25;color:#fff}
 .nav-shop-btn .shop-short{display:none}
-@media (min-width:1041px) and (max-width:1560px){.nav-shop-btn .shop-long{display:none}.nav-shop-btn .shop-short{display:inline}}
+@media (min-width:1041px) and (max-width:1600px){.nav-shop-btn .shop-long{display:none}.nav-shop-btn .shop-short{display:inline}}
 @media (max-width:1040px){.site-nav .nav-root > li.nav-shop{margin:.5rem 0}.site-nav .nav-root > li.nav-shop > a.nav-shop-btn{justify-content:center}}
 .btn-shop{background:#c8102e;color:#fff !important;font-weight:700;border:2px solid #f2c14e;box-shadow:0 6px 18px rgba(200,16,46,.45)}
 .btn-shop:hover{background:#a00d25}
 .btn-sm.btn-sm-shop{background:#c8102e;color:#fff;border-color:#c8102e}
+
+/* Menú escritorio compacto 1041–1400px (evita desborde) */
+@media (min-width:1041px) and (max-width:1400px){
+  .site-nav .nav-root{gap:0}
+  .site-nav .nav-root > li > a,.site-nav .nav-submenu-toggle{padding:.45rem .4rem;font-size:.8rem;gap:.3rem}
+  .site-nav .nav-root > li.nav-shop > a.nav-shop-btn{padding:.42rem .7rem;font-size:.82rem;margin-left:.2rem}
+}
+@media (min-width:1041px) and (max-width:1120px){
+  .site-nav .nav-root > li:not(.nav-shop) > a > .fa-fw,.site-nav .nav-submenu-toggle > .fa-fw{display:none}
+}
