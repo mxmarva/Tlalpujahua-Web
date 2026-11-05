@@ -102,7 +102,7 @@
       ],
       [
         "",
-        "Correo electrónico: [email protected]"
+        "Correo electrónico: vinicalcantaramexico01@outlook.com"
       ],
       [
         "",
@@ -112,8 +112,8 @@
     "informacion_general": "Ven da un recorrido por la microplanta cervecera y disfruta de una vista espectacular, llena de naturaleza en nuestros jardines al aire libre. Acceso gratis, apóyanos consumiendo.",
     "valoracion": "10",
     "mapa_destino": "19.813529598103713,-100.17834465209486",
-    "imagen": "https://images.myimageen.com/2024/11/06/5878f7f12a6ece6d1366dbb46b62563a.jpeg",
-    "direccion": "Calzada del Carmen S/N, Localidad del Carmen"
+    "imagen": "https://www.tlalpujahua.net/assets/img/negocios/beer-garden-castrum-exterior.webp",
+    "direccion": "Calzada del Carmen s/n, localidad del Carmen, a un costado del campo de gotcha Miners"
   },
   {
     "url": "https://www.tlalpujahua.net/destinations/cake-pop",
@@ -365,7 +365,7 @@
     "informacion_general": "",
     "valoracion": "9.8",
     "mapa_destino": "19.790360110236563,-100.16407607766172",
-    "imagen": "https://www.tlalpujahua.net/wp-content/webpc-passthru.php?src=https://www.tlalpujahua.net/wp-content/uploads/2023/09/tlalpujahuilla.jpg&amp;nocache=1",
+    "imagen": "https://www.tlalpujahua.net/assets/img/wp/2023/09/tlalpujahuilla.jpg",
     "direccion": "San Juan Tlalpujahuilla"
   },
   {
@@ -388,7 +388,7 @@
     "informacion_general": "En la Terraza se degustan los platillos a la par de su panorámica. En el menú aparecen la sopa casera, caldo de pollo, mole, milanesas arroz, ensaladas , cecina y café en varias presentaciones. Los precios son económicos, el personal amable y las instalaciones las mantienen aseadas.",
     "valoracion": "6.7",
     "mapa_destino": "19.804833273842338,-100.1739375699438",
-    "imagen": "https://www.tlalpujahua.net/wp-content/webpc-passthru.php?src=https://www.tlalpujahua.net/wp-content/uploads/2023/09/DSC05335.jpg&amp;nocache=1",
+    "imagen": "https://www.tlalpujahua.net/assets/img/wp/2023/09/DSC05335.jpg",
     "direccion": "Allende, Centro"
   },
   {
@@ -451,7 +451,7 @@
     "informacion_general": "",
     "valoracion": "10",
     "mapa_destino": "19.80514036375717,-100.17482058837756",
-    "imagen": "https://www.tlalpujahua.net/wp-content/webpc-passthru.php?src=https://www.tlalpujahua.net/wp-content/uploads/2023/09/delcarmen.jpg&amp;nocache=1",
+    "imagen": "https://www.tlalpujahua.net/assets/img/wp/2023/09/delcarmen.jpg",
     "direccion": "Tlalpujahua Centro"
   },
   {
@@ -501,7 +501,7 @@
     "informacion_general": "En un ambiente agradable , con atención cordial y con precios accesibles, el restaurante sirve desayunos con gran variedad de huevos, jugo, fruta, wafles. En la comida ofrece ensaladas, enchiladas, tostadas, tacos, choriqueso, sopas, consomé de pollo, además gran variedad de hamburguesas y hot dog. También tiene diversas bebidas.",
     "valoracion": "9.5",
     "mapa_destino": "19.80376577283049,-100.17276600055128",
-    "imagen": "https://www.tlalpujahua.net/wp-content/webpc-passthru.php?src=https://www.tlalpujahua.net/wp-content/uploads/2023/09/pueblo-magico-restaurante.jpg&amp;nocache=1",
+    "imagen": "https://www.tlalpujahua.net/assets/img/wp/2023/09/pueblo-magico-restaurante.jpg",
     "direccion": "Ignacio Rayón, Centro"
   },
   {
@@ -548,10 +548,10 @@
         "Teléfono: +52 (447) 1192 861"
       ]
     ],
-    "informacion_general": "Es un taller familiar donde podemos mostrar el proseso completo que es soplado plateado pintado decorado tenemos tienda física gran variedad de decorados figuras. Creamos personalizaciones 100% artesanal. Contamos con área de descanso con un bonito paisaje para la foto de el recuerdo.",
+    "informacion_general": "Es un taller familiar donde puedes conocer el proceso completo de las esferas: soplado, plateado, pintado y decorado. Tenemos tienda física, gran variedad de decorados y figuras, y hacemos personalizaciones 100 % artesanales. Contamos con un área de descanso y un bonito paisaje para tu foto del recuerdo.",
     "valoracion": "10",
     "mapa_destino": "19.806656230274104,-100.1778321207978",
-    "imagen": "https://images.myimageen.com/2024/11/05/261837e268b7140b9060693650690bd6.jpeg",
+    "imagen": "https://www.tlalpujahua.net/assets/img/negocios/tiendita-de-esferas-grees-logo.webp",
     "direccion": "2da cerrada de victoria SN"
   },
   {
@@ -629,5 +629,121 @@
     "mapa_destino": "19.805038199147504,-100.17351170096852",
     "imagen": "https://www.tlalpujahua.net/assets/img/feria/feria-esfera-2026.webp",
     "direccion": "Tlalpujahua de Rayón"
+  },
+  {
+    "url": "https://www.tlalpujahua.net/negocios/fuentes-y-fachadas-el-tarasco.html",
+    "slug": "fuentes-y-fachadas-el-tarasco",
+    "categoria": "tiendas",
+    "title": "Fuentes y Fachadas El Tarasco",
+    "horarios": [],
+    "otra_info": [
+      [
+        "",
+        "Teléfono / WhatsApp: +52 447 117 7121"
+      ],
+      [
+        "",
+        "Correo electrónico: tarasquito96@gmail.com"
+      ]
+    ],
+    "informacion_general": "Mini fuentes de cantera, columnas y todo lo relacionado al ámbito de la cantera para interior y exterior",
+    "mapa_destino": "Carretera Tlalpujahua–El Oro km 3, paraje El Tapón, Tlalpujahua, Michoacán",
+    "imagen": "https://www.tlalpujahua.net/assets/img/negocios/fuentes-y-fachadas-el-tarasco.webp",
+    "direccion": "Carretera Tlalpujahua–El Oro km 3, paraje El Tapón"
+  },
+  {
+    "url": "https://www.tlalpujahua.net/negocios/posada-familiar-san-jorge.html",
+    "slug": "posada-familiar-san-jorge",
+    "categoria": "hoteles",
+    "title": "Posada Familiar San Jorge",
+    "horarios": [],
+    "otra_info": [
+      [
+        "",
+        "Teléfono / WhatsApp: +52 711 158 0194"
+      ],
+      [
+        "",
+        "Correo electrónico: tm840328@gmail.com"
+      ]
+    ],
+    "informacion_general": "Hotel familiar con habitaciones sencillas, dobles y triples. Ofrece servicio de limpieza, tranquilidad, internet, baño privado dentro de la habitación y televisión.",
+    "mapa_destino": "Callejón del Refugio, Tlalpujahua, Michoacán",
+    "imagen": "https://www.tlalpujahua.net/assets/img/negocios/posada-familiar-san-jorge.webp",
+    "direccion": "Callejón del Refugio"
+  },
+  {
+    "url": "https://www.tlalpujahua.net/negocios/barbacoa-el-zurdo.html",
+    "slug": "barbacoa-el-zurdo",
+    "categoria": "restaurantes",
+    "title": "Barbacoa El Zurdo",
+    "horarios": [
+      [
+        "Sábados, domingos y días festivos",
+        "Horario no especificado"
+      ]
+    ],
+    "otra_info": [
+      [
+        "",
+        "Correo electrónico: iselamartinez529@gmail.com"
+      ]
+    ],
+    "informacion_general": "Barbacoa por taco o por kilo. Servicio sábados, domingos y días festivos. ¡Visítanos, te esperamos!",
+    "mapa_destino": "Mercado Municipal Libertad, Tlalpujahua, Michoacán",
+    "imagen": "https://www.tlalpujahua.net/assets/img/negocios/barbacoa-el-zurdo.webp",
+    "direccion": "Local núm. 4, interior del Mercado Municipal Libertad, planta alta"
+  },
+  {
+    "url": "https://www.tlalpujahua.net/negocios/hospedaje-dos-estrellas.html",
+    "slug": "hospedaje-dos-estrellas",
+    "categoria": "hoteles",
+    "title": "Hospedaje Dos Estrellas",
+    "horarios": [
+      [
+        "Lunes a domingo",
+        "Horario no especificado"
+      ]
+    ],
+    "otra_info": [
+      [
+        "",
+        "Teléfono / WhatsApp: +52 712 164 9485"
+      ],
+      [
+        "",
+        "Correo electrónico: maristrujis@hotmail.com"
+      ]
+    ],
+    "informacion_general": "Casa departamento con todos los servicios.",
+    "mapa_destino": "Dos Estrellas, Michoacán",
+    "imagen": "https://www.tlalpujahua.net/assets/img/negocios/hospedaje-dos-estrellas.webp",
+    "direccion": "Dos Estrellas, Michoacán"
+  },
+  {
+    "url": "https://www.tlalpujahua.net/negocios/cocina-la-guera.html",
+    "slug": "cocina-la-guera",
+    "categoria": "restaurantes",
+    "title": "Cocina La Güera",
+    "horarios": [
+      [
+        "Lunes a viernes",
+        "8:00 a.m. a 5:30 p.m."
+      ]
+    ],
+    "otra_info": [
+      [
+        "",
+        "Teléfono: +52 711 158 3892"
+      ],
+      [
+        "",
+        "Correo electrónico: are.say1601@hotmail.com"
+      ]
+    ],
+    "informacion_general": "Distintos guisados en comida corrida y platillos especiales.",
+    "mapa_destino": "Mercado Municipal de Tlalpujahua, Michoacán",
+    "imagen": "https://www.tlalpujahua.net/assets/img/negocios/cocina-la-guera.webp",
+    "direccion": "Mercado Municipal de Tlalpujahua, fonda núm. 1"
   }
 ]
