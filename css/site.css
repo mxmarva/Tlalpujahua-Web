@@ -1051,3 +1051,21 @@ main {
 @media (min-width:1041px) and (max-width:1120px){
   .site-nav .nav-root > li:not(.nav-shop) > a > .fa-fw,.site-nav .nav-submenu-toggle > .fa-fw{display:none}
 }
+
+/* Página 404 */
+.page-404 .page-head-code {
+  margin: 0 0 0.35rem;
+  font-size: clamp(3rem, 12vw, 4.75rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  color: #99f6e4;
+}
+
+.page-404 .page-head .hero-actions {
+  margin-top: 1.35rem;
+}
+
+.page-404 main {
+  min-height: calc(100vh - var(--header-h) - 8rem);
+}
