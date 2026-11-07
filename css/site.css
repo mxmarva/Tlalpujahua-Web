@@ -1109,16 +1109,12 @@ main {
   object-fit: contain;
 }
 
+/* La placa de Google ocupa 192/250 del PNG (margen transparente oficial).
+   Apple llena los 40px del SVG. Así las alturas visibles coinciden sin recortar. */
 .store-badges img.badge-google {
-  height: 60px;
+  height: calc(40px * 250 / 192);
 }
 
 .store-badges img.badge-apple {
   height: 40px;
-}
-
-@media (max-width: 380px) {
-  .store-badges img.badge-google {
-    height: 54px;
-  }
 }
