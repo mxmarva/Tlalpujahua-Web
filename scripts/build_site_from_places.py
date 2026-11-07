@@ -134,6 +134,21 @@ def linkify_urls(text: str) -> str:
     return esc
 
 
+PLAY_URL = "https://play.google.com/store/apps/details?id=net.tlalpujahua.tienda"
+APPLE_URL = "https://apps.apple.com/mx/app/tlalpujahua-store/id6827708982"
+
+
+def store_badges(prefix: str) -> str:
+    return f"""      <div class="store-badges">
+        <p class="store-badges-label">App Tlalpujahua Store</p>
+        <div class="store-badges-row">
+          <a class="store-badge" href="{PLAY_URL}" target="_blank" rel="noopener noreferrer"><img class="badge-google" src="{prefix}assets/img/badges/google-play-es.png" width="646" height="250" alt="Disponible en Google Play"></a>
+          <a class="store-badge" href="{APPLE_URL}" target="_blank" rel="noopener noreferrer"><img class="badge-apple" src="{prefix}assets/img/badges/app-store-es-mx.svg" width="120" height="40" alt="Descárgalo en el App Store"></a>
+        </div>
+      </div>
+"""
+
+
 def maps_link(dest: str) -> str:
     if not dest:
         return ""
@@ -297,7 +312,7 @@ def detail_html(p: dict, site_header: str) -> str:
 {body}
   <footer class="site-footer">
     <div class="footer-inner">
-      <p class="footer-note" style="margin:0"><a href="{prefix}index.html">Inicio</a> · © <span id="year"></span></p>
+{store_badges(prefix)}      <p class="footer-note" style="margin:0"><a href="{prefix}index.html">Inicio</a> · © <span id="year"></span></p>
       <p class="footer-note" style="margin:0">Un sitio desarrollado y hospedado por <a href="https://www.solucionesmarva.com" target="_blank" rel="noopener noreferrer">Soluciones Marva</a>.</p>
     </div>
   </footer>
@@ -345,7 +360,7 @@ def listing_page(cat: str, places: list[dict], site_header: str) -> str:
   </section>
   <footer class="site-footer">
     <div class="footer-inner">
-      <p class="footer-note" style="margin:0"><a href="index.html">Inicio</a> · © <span id="year"></span></p>
+{store_badges("")}      <p class="footer-note" style="margin:0"><a href="index.html">Inicio</a> · © <span id="year"></span></p>
       <p class="footer-note" style="margin:0">Un sitio desarrollado y hospedado por <a href="https://www.solucionesmarva.com" target="_blank" rel="noopener noreferrer">Soluciones Marva</a>.</p>
     </div>
   </footer>
