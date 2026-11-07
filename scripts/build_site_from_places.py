@@ -140,7 +140,6 @@ APPLE_URL = "https://apps.apple.com/mx/app/tlalpujahua-store/id6827708982"
 
 def store_badges(prefix: str) -> str:
     return f"""      <div class="store-badges">
-        <p class="store-badges-label">App Tlalpujahua Store</p>
         <div class="store-badges-row">
           <a class="store-badge" href="{PLAY_URL}" target="_blank" rel="noopener noreferrer"><img class="badge-google" src="{prefix}assets/img/badges/google-play-es.png" width="646" height="250" alt="Disponible en Google Play"></a>
           <a class="store-badge" href="{APPLE_URL}" target="_blank" rel="noopener noreferrer"><img class="badge-apple" src="{prefix}assets/img/badges/app-store-es-mx.svg" width="120" height="40" alt="Descárgalo en el App Store"></a>
