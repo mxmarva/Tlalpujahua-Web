@@ -302,7 +302,7 @@ def detail_html(p: dict, site_header: str) -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{prefix}css/site.css">
+  <link rel="stylesheet" href="{prefix}css/site.css?v=20261107b">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="page-negocio" data-nav-active="{prefix}{list_file}">
@@ -338,7 +338,7 @@ def listing_page(cat: str, places: list[dict], site_header: str) -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/site.css?v=20261107b">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="{html.escape(meta['body_class'])}">
