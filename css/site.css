@@ -1118,3 +1118,80 @@ main {
 .store-badges img.badge-apple {
   height: 40px;
 }
+
+
+/* Bloque y página: video Boing / Cooperativa Pascual */
+.feature-boing {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.feature-boing-inner {
+  display: grid;
+  gap: 1.5rem 2rem;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .feature-boing-inner {
+    grid-template-columns: minmax(200px, 280px) 1fr;
+  }
+
+  .feature-boing-page .feature-boing-inner {
+    grid-template-columns: minmax(220px, 320px) 1fr;
+    align-items: start;
+  }
+}
+
+.feature-boing-media {
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 0.7rem 0.7rem 0.85rem;
+  max-width: 320px;
+  width: 100%;
+}
+
+.feature-boing-media video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #0f172a;
+  display: block;
+}
+
+.feature-boing-credit {
+  margin: 0.55rem 0 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-align: center;
+}
+
+.feature-boing-copy h2 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.25rem, 2.4vw, 1.6rem);
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.feature-boing-copy p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+.feature-boing-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.feature-boing-more {
+  margin-top: 0.35rem;
+}
+
+.feature-boing-page .feature-boing-copy h2 {
+  display: none;
+}
